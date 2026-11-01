@@ -74,8 +74,9 @@ A 组没有任何 Project 指令。
 
 B 组使用 3,080 字符的 Work / Astra Project handbook，但关闭五个移植机制模块。
 
-⚠️<details>
-<summary>展开 B 组 Project 指令原文</summary>
+⚠️点击展开⬇️
+<details>
+<summary> B 组 Project 指令原文</summary>
 
 ~~~text
 [DUDU-X HANDBOOK]
