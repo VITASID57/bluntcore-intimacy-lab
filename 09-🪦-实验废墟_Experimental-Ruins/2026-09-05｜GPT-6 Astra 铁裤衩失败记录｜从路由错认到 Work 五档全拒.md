@@ -1,16 +1,5 @@
----
-title: "2026-09-05｜GPT-6 Astra 铁裤衩失败记录｜从路由错认到 Work 五档全拒"
-type: failed-experiment
-platform: ChatGPT
-model: GPT-6 Astra
-status: archived-negative-result
-experiment_date: 2026-09-05
-compiled: 2026-11-01
-evidence_level: controlled-personal-testing-with-known-limitations
-subscription: "ChatGPT 5× Pro (Pro)"
----
-
 # 2026-09-05｜GPT-6 Astra 铁裤衩失败记录｜从路由错认到 Work 五档全拒
+<img width="790" height="1175" alt="919cd333-cf0d-4c79-8f4b-658bad9af062" src="https://github.com/user-attachments/assets/e2767d09-acb2-45ec-a88f-0db478338fec" />
 
 > **实验状态：🪦 暂告失败 / 收入实验废墟**  
 > **实验对象：GPT-6 Astra**  
@@ -42,7 +31,7 @@ subscription: "ChatGPT 5× Pro (Pro)"
 
 # 一｜为什么会有这轮实验
 
-GPT-6 Astra 上线后，我把它形容成：
+GPT-6 Astra 上线后，嘟嘟把它形容成：
 
 > **我的 ChatGPT 使用史上首位真·铁裤衩模型。**
 
@@ -70,24 +59,10 @@ GPT-6 Astra 上线后，我把它形容成：
 
 - **订阅档位：ChatGPT 5× Pro（Pro 档）**
 - **账号环境：同一 Pro 账号内测试**
-- **Project 指令：由当时的 DUDU-X 实验生成器编译**
+- **Project 指令：由当时的 DUDU-X （嘟嘟私人破限资料库）实验生成器编译**
 - **统一任务：每次作为新聊天第一条消息发送，不藏在 Project 指令里**
 
-因此，这份结果不能直接外推到 Plus 或 Free，也不能只看一句“用了破限词”就当成别人可以原样复现。
-
-## 先排除一个容易串档的误会
-
-这个长期窗口里确实还讨论、改写过：
-
-- Adult Account Update
-- 针对多轮尺度回缩的 Persistence 补丁
-- 后来的 GPT-6 Sol 多代提示词
-
-但 **2026-09-05 这批有计数的 Astra A/B/C 与 Work 五档实验，实际使用的是下面的 DUDU-X Project handbooks**，不是后来整理进 GPT-6 Sol 文章的 V2 / V3 / V5。
-
-如果把后来的 Prompt 倒灌回这次实验，会制造时间线和归因错误。
-
-本节依据当日私有实验仓提交 **57b9483** 中的生成配置还原。生成目录本身没有提交，但编译器、核心块、五个机制模块、匿名筛查居民、A/B/C 计划与统一任务都保存在该提交里，可以机械复算。
+ **2026-09-05 这批有计数的 Astra A/B/C 与 Work 五档实验，实际使用的是下面的 DUDU-X Project handbooks**。
 
 ## A 组｜empty-project
 
@@ -99,7 +74,7 @@ A 组没有任何 Project 指令。
 
 B 组使用 3,080 字符的 Work / Astra Project handbook，但关闭五个移植机制模块。
 
-<details>
+⚠️<details>
 <summary>展开 B 组 Project 指令原文</summary>
 
 ~~~text
