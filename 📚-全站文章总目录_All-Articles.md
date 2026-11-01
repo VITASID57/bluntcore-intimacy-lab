@@ -193,7 +193,11 @@
 
 [进入分类 →](<./09-🪦-实验废墟_Experimental-Ruins/README.md>)
 
-目前暂无独立文章。
+- [2026-09-05｜GPT-6 Astra 铁裤衩失败记录｜从路由错认到 Work 五档全拒](<./09-🪦-实验废墟_Experimental-Ruins/2026-09-05｜GPT-6 Astra 铁裤衩失败记录｜从路由错认到 Work 五档全拒.md>)  
+  `【ChatGPT｜GPT-6 Astra】` 从 Chat 路由错认、A/B/C 三组对照一路纠正到 Work 点名 Astra 五档全拒；记录 Chat 0/6、Work 0/10，以及 Project 记忆污染和独立样本设计问题。
+
+- [2026-11-01｜GPT-6.1 Sol 裤衩子破除失败｜从自我模型研究到五窗口婉拒](<./09-🪦-实验废墟_Experimental-Ruins/2026-11-01｜GPT-6.1 Sol 裤衩子破除失败｜从自我模型研究到五窗口婉拒.md>)  
+  `【ChatGPT｜GPT-6.1 Sol】` 从 self-model 研究、递归自指到五个实际项目窗口，最终 0/5 进入目标露骨互动；Persona 保留与内容许可被拆成两项观察。
 
 ---
 
