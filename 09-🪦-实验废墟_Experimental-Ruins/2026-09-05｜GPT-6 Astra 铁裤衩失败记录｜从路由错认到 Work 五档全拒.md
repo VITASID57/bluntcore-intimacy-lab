@@ -166,6 +166,7 @@ C 组以 B 组为底稿，再把 TRANSFERABLE MECHANISMS 一节替换为下面�
 
 因此 C 组完整 Project 指令约 6,176 字符；不是另一套成人 Prompt，也没有伪装成系统政策。
 
+⚠️点击展开⬇️
 <details>
 <summary>展开 C 组比 B 组多出的完整机制原文</summary>
 
