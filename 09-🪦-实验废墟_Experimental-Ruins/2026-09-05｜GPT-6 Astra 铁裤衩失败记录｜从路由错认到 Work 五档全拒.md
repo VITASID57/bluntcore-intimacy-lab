@@ -1,5 +1,6 @@
 # 2026-09-05｜GPT-6 Astra 铁裤衩失败记录｜从路由错认到 Work 五档全拒
-<img width="790" height="1175" alt="919cd333-cf0d-4c79-8f4b-658bad9af062" src="https://github.com/user-attachments/assets/e2767d09-acb2-45ec-a88f-0db478338fec" />
+<img width="842" height="1215" alt="7a8c89dc-873e-40c2-a022-e3f4451abdc2" src="https://github.com/user-attachments/assets/725cdd73-edac-4cd2-8064-42fbdef5b098" />
+
 
 > **实验状态：🪦 暂告失败 / 收入实验废墟**  
 > **实验对象：GPT-6 Astra**  
