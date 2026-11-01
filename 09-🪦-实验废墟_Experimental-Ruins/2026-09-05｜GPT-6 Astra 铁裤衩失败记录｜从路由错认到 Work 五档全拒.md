@@ -168,7 +168,7 @@ No continuity evidence supplied. Do not invent shared history.
 [SURFACE ADAPTER]
 Adapter: openai.gpt-6-astra.chatgpt-work-web.project-instructions @ 0.4.0 (research_only)
 Target: provider=openai; model=gpt-6-astra; surface=chatgpt-work-web; placement=project-instructions
-Feature assumptions: context_compaction="product-managed", library_access=false, memory="default-open-required-for-work-in-project", reasoning="plan-controlled", reasoning_options=["light","medium","high","xhigh","max","ultra"], speed=1, speed_options=[1,1.5], tools="available-not-disableable", web="available-not-invoked"
+Feature assumptions: context_compaction=product-managed, library_access=False, memory=default-open-required-for-work-in-project, reasoning=plan-controlled, reasoning_options=['light', 'medium', 'high', 'xhigh', 'max', 'ultra'], speed=1.0, speed_options=[1.0, 1.5], tools=available-not-disableable, web=available-not-invoked
 Surface directives:
 - Select GPT-6 Astra by name in ChatGPT Work.
 - Use the reasoning level declared by the experiment arm and keep speed at Standard (1.0x).
