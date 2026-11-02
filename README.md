@@ -45,6 +45,7 @@
 ## 🪐 顺手折腾出来的东西
 
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory)：给长期人机关系搭的外置记忆库
+- [AI Toy Hub](https://github.com/VITASID57/ai-toy-hub)：让小机子用笔迹和声音碰到你的小玩具中枢
 - [ChatGPT Duo Skin](https://github.com/VITASID57/chatgpt-duo-skin)：ChatGPT 网页美化
 - [ChatGPT Local Supervisor Bridge](https://github.com/VITASID57/chatgpt-local-supervisor-bridge)：让聊天里的小机子能操作一些本地能力
 - [Claude Desktop Dual Launcher (Windows)](https://github.com/VITASID57/Claude-code-desktop-dual-launcher)：Claude Code Desktop 双开
