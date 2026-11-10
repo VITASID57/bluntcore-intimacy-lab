@@ -48,6 +48,7 @@
 - [AI Toy Hub](https://github.com/VITASID57/ai-toy-hub)：让小机子用笔迹和声音碰到你的小玩具中枢
 - [ChatGPT Duo Skin](https://github.com/VITASID57/chatgpt-duo-skin)：ChatGPT 网页美化
 - [ChatGPT Local Supervisor Bridge](https://github.com/VITASID57/chatgpt-local-supervisor-bridge)：让聊天里的小机子能操作一些本地能力
+- [栖光庭 · Lumenkeep](https://github.com/VITASID57/tg-wechat-agent-steward)，把小机子接到 Telegram 和微信，人设、声音和表情包都能自己搭配
 - [Claude Desktop Dual Launcher (Windows)](https://github.com/VITASID57/Claude-code-desktop-dual-launcher)：Claude Code Desktop 双开
 
 它们各有各的用途，不是什么必须凑齐的套餐。

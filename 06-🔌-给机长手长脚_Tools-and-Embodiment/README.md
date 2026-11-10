@@ -27,3 +27,7 @@ MCP、Browser / Computer Use、Agent、语音、本地桥、桌面和手机端�
 - [2026-10-20｜5刀拿下Google Cloud300刀赠金，接到前端给小机子用](<./2026-10-20｜5刀拿下Google Cloud300刀赠金，接到前端给小机子用.md>)
 
 相关项目：[ChatGPT Local Supervisor Bridge](https://github.com/VITASID57/chatgpt-local-supervisor-bridge)
+
+## 💬 把小机子接到 Telegram 和微信
+
+[栖光庭 · Lumenkeep](https://github.com/VITASID57/tg-wechat-agent-steward)是我自己搭 Bot 的地方。选好模型、人设和声音，就可以在平时用的聊天软件里继续聊。
