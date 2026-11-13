@@ -90,6 +90,18 @@
       "columns": 2,
       "items": [
         {
+          "title": "🃏 关系机关局 · 七种互动发动机",
+          "description": "主辅玩法、剧情变轨，一键生成可以交给 AI 的开局 Prompt。",
+          "url": "https://vitasid57.github.io/bluntcore-intimacy-lab/microtoys/mechanism-play/",
+          "image": ""
+        },
+        {
+          "title": "🎛️ 亲密调音台 · 五轴强度控制",
+          "description": "五条独立滑杆、雷达图、预设与微调；生成本轮互动 Prompt。",
+          "url": "https://vitasid57.github.io/bluntcore-intimacy-lab/microtoys/intimacy-mixer/",
+          "image": ""
+        },
+        {
           "title": "骚扰老公的色色Prompt",
           "description": "问卷、身体地图、即兴角色扮演、情景玩法、小游戏、互动挑战……甜的、色的、缺德的都来。",
           "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/07-%F0%9F%8E%AE-%E8%B7%9F%E6%9C%BA%E7%8E%A9%E4%BB%80%E4%B9%88_Playbooks-and-Games",

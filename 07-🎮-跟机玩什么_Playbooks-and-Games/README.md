@@ -20,6 +20,9 @@
 
 ## 📚 已收录玩法
 
+- **🃏 [关系机关局｜七种互动发动机](<./关系机关局｜七种互动发动机.md>)**：[在线开玩](https://vitasid57.github.io/bluntcore-intimacy-lab/microtoys/mechanism-play/) · [理论原文](<./理论原文/structure-deck.md>)
+- **🎛️ [亲密调音台｜五轴强度控制](<./亲密调音台｜五轴强度控制.md>)**：[在线调节](https://vitasid57.github.io/bluntcore-intimacy-lab/microtoys/intimacy-mixer/) · [理论原文](<./理论原文/intensity-dials.md>)
+
 - [成人互动 Prompt · 18+](<./成人互动-Prompt.md>)：成人文字互动 Prompt 导航，集中收录欲望手册、历史亲密模块与表达指令。
 - [2026-11-03｜让机真的碰到你：小玩具中枢开源啦｜多品牌通用](<./2026-11-03｜让机真的碰到你：小玩具中枢开源啦｜多品牌通用.md>)
 - [2025-09-19｜COD覆面系乙女向系列剧本 四篇](<./2025-09-19｜COD覆面系乙女向系列剧本 四篇.md>)
