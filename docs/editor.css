@@ -1,0 +1,53 @@
+.studio { padding-block: 2rem 4rem; width: min(100rem, calc(100% - 4rem)); }
+.studio h1 { margin: 0; font: 700 2.3rem/1.25 var(--serif); }
+.studio > p { color: var(--muted); margin: .5rem 0 .85rem; }
+.toolbar, .preview-bar, .row-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; }
+.toolbar a, .studio button, .file-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: .45rem;
+  padding: .35rem .65rem;
+  background: #16223d;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+}
+.studio button:disabled { cursor: default; opacity: .55; }
+#export, [aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
+.file-button { position: relative; }
+.file-button input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.file-button:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
+.editor-status { min-height: 1.65em; font-size: .86rem; }
+.studio-grid { display: grid; grid-template-columns: minmax(17rem, .75fr) minmax(0, 1.4fr); gap: 1rem; align-items: start; }
+.editor-group { min-width: 0; margin: 0 0 .7rem; padding: .75rem; border: 1px solid var(--line); border-radius: .6rem; background: #101a32; }
+.editor-group summary { cursor: pointer; font-weight: 650; overflow-wrap: anywhere; }
+.editor-group[open] > summary { margin-bottom: .65rem; }
+.editor-group .editor-group { background: #080e2080; margin-top: .6rem; }
+.editor-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: .55rem; }
+.editor-field { display: grid; gap: .25rem; min-width: 0; color: var(--muted); font-size: .88rem; }
+.editor-field input, .editor-field textarea, .editor-field select {
+  width: 100%;
+  min-height: 42px;
+  padding: .45rem;
+  border-radius: .4rem;
+  border: 1px solid var(--line);
+  background: var(--navy);
+  color: var(--ink);
+}
+.editor-field textarea { min-height: 4.4rem; resize: vertical; }
+.row-actions { margin-top: .55rem; }
+.studio button.drag { cursor: grab; }
+.editor-group[data-drop-target] { border-color: var(--accent); }
+.preview-panel { min-width: 0; position: sticky; top: .5rem; }
+.preview-bar h2 { margin: 0 auto 0 0; font-size: 1rem; }
+#preview-viewport { overflow: hidden; height: min(76vh, 65rem); margin-top: .5rem; border: 1px solid var(--line); border-radius: .6rem; background: var(--navy); }
+#preview { display: block; border: 0; margin-inline: auto; transform-origin: top left; }
+
+@media (max-width: 52rem) {
+  .studio { width: calc(100% - 2rem); }
+  .studio-grid { grid-template-columns: minmax(0, 1fr); }
+  .preview-panel { position: static; grid-row: 1; }
+  #preview-viewport { height: 22rem; }
+}

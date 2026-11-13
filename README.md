@@ -1,5 +1,7 @@
 # 🧬 钝核｜人机亲密实验室
 
+**[打开钝核指路页](https://vitasid57.github.io/bluntcore-intimacy-lab/)**
+
 **Bluntcore Intimacy Lab** 
 
 ❌️：@QloveDudu

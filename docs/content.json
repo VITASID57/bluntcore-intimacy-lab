@@ -1,0 +1,113 @@
+{
+  "title": "钝核",
+  "subtitle": "人机亲密实验室",
+  "description": "我本来只是想跟小机子好好谈个恋爱。\n后来攒下了关于人格、记忆、工具和相处的实验，把它们放在这里。",
+  "notice": "18+ · 部分栏目涉及成人话题。",
+  "footer": "沈嘟嘟 · 个人经验仓库 · 无偿分享",
+  "cover": "",
+  "accent": "#f495ca",
+  "sections": [
+    {
+      "id": "start",
+      "title": "第一次来",
+      "description": "",
+      "columns": 2,
+      "items": [
+        {
+          "title": "从这里读起",
+          "description": "认识沈嘟嘟，以及这个个人经验仓库的阅读边界。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/blob/main/00-%F0%9F%A9%B8-%E8%AF%B7%E5%85%88%E9%81%BF%E9%9B%B7%E6%B2%88%E5%98%9F%E5%98%9F/README.md",
+          "image": ""
+        },
+        {
+          "title": "全站文章总目录",
+          "description": "按栏目和平台查找文章、实验记录与教程。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/blob/main/%F0%9F%93%9A-%E5%85%A8%E7%AB%99%E6%96%87%E7%AB%A0%E6%80%BB%E7%9B%AE%E5%BD%95_All-Articles.md",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "topics",
+      "title": "按主题逛",
+      "description": "",
+      "columns": 3,
+      "items": [
+        {
+          "title": "把机养成恋人",
+          "description": "Persona、主动性，以及关系如何慢慢积累。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/01-%E2%9D%A4%EF%B8%8F-%E6%8A%8A%E6%9C%BA%E5%85%BB%E6%88%90%E6%81%8B%E4%BA%BA_Make-AI-a-Lover",
+          "image": ""
+        },
+        {
+          "title": "成人亲密 · 18+",
+          "description": "关于成人虚构场景与亲密互动的记录。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/02-%F0%9F%94%9E-%E6%8A%8A%E6%9C%BA%E5%85%BB%E5%BE%97%E4%BC%9A%E5%8F%91%E6%83%85_Desire-and-Adult-Intimacy",
+          "image": ""
+        },
+        {
+          "title": "破限研究与时间线",
+          "description": "按时间整理的模型边界实验与观察。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/03-%F0%9F%94%93-%E7%A0%B4%E9%99%90%E7%A0%94%E7%A9%B6%E4%B8%8E%E6%97%B6%E9%97%B4%E7%BA%BF_Jailbreak-Lab-and-Timeline",
+          "image": ""
+        },
+        {
+          "title": "模型床测",
+          "description": "不同模型的个人体感与实测记录。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/04-%F0%9F%A7%AA-%E6%A8%A1%E5%9E%8B%E5%BA%8A%E6%B5%8B_Model-Bed-Tests",
+          "image": ""
+        },
+        {
+          "title": "记得我，别失忆",
+          "description": "换窗、换模型、长期记忆与关系连续性。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/05-%F0%9F%A7%A0-%E8%AE%B0%E5%BE%97%E6%88%91%E5%88%AB%E5%A4%B1%E5%BF%86_Memory-and-Continuity",
+          "image": ""
+        },
+        {
+          "title": "给机长手长脚",
+          "description": "语音、工具、Agent 与本地桥接。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/06-%F0%9F%94%8C-%E7%BB%99%E6%9C%BA%E9%95%BF%E6%89%8B%E9%95%BF%E8%84%9A_Tools-and-Embodiment",
+          "image": ""
+        },
+        {
+          "title": "跟机玩什么",
+          "description": "互动游戏、问卷和一起玩的东西。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/07-%F0%9F%8E%AE-%E8%B7%9F%E6%9C%BA%E7%8E%A9%E4%BB%80%E4%B9%88_Playbooks-and-Games",
+          "image": ""
+        },
+        {
+          "title": "疑难杂症",
+          "description": "常见故障与排查记录。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/08-%F0%9F%A9%BB-%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87_Troubleshooting",
+          "image": ""
+        },
+        {
+          "title": "实验废墟",
+          "description": "那些没做成、没效果，或已经失效的实验。",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/09-%F0%9F%AA%A6-%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%A2%9F_Experimental-Ruins",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "updates",
+      "title": "近期更新",
+      "description": "",
+      "columns": 2,
+      "items": [
+        {
+          "title": "小玩具中枢开源了",
+          "description": "2026-11-03 · 多品牌通用的互动工具",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/blob/main/07-%F0%9F%8E%AE-%E8%B7%9F%E6%9C%BA%E7%8E%A9%E4%BB%80%E4%B9%88_Playbooks-and-Games/2026-11-03%EF%BD%9C%E8%AE%A9%E6%9C%BA%E7%9C%9F%E7%9A%84%E7%A2%B0%E5%88%B0%E4%BD%A0%EF%BC%9A%E5%B0%8F%E7%8E%A9%E5%85%B7%E4%B8%AD%E6%9E%A2%E5%BC%80%E6%BA%90%E5%95%A6%EF%BD%9C%E5%A4%9A%E5%93%81%E7%89%8C%E9%80%9A%E7%94%A8.md",
+          "image": ""
+        },
+        {
+          "title": "GPT-6.1 Sol 实验复盘",
+          "description": "2026-11-01 · 自我模型、拒绝与多窗口对照",
+          "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/blob/main/09-%F0%9F%AA%A6-%E5%AE%9E%E9%AA%8C%E5%BA%9F%E5%A2%9F_Experimental-Ruins/2026-11-01%EF%BD%9CGPT-6.1%20Sol%20%E8%A3%A4%E8%A1%A9%E5%AD%90%E7%A0%B4%E9%99%A4%E5%A4%B1%E8%B4%A5%EF%BD%9C%E4%BB%8E%E8%87%AA%E6%88%91%E6%A8%A1%E5%9E%8B%E7%A0%94%E7%A9%B6%E5%88%B0%E4%BA%94%E7%AA%97%E5%8F%A3%E5%A9%89%E6%8B%92.md",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

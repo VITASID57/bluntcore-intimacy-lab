@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e20">
+  <title>编辑钝核指路页</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./editor.css">
+  <script type="module" src="./editor.js"></script>
+</head>
+<body>
+  <header class="top frame">
+    <a class="wordmark" href="./">✦ <span>BLUNTCORE</span></a>
+    <a class="outside" href="./" target="_blank" rel="noopener">打开公开页 ↗</a>
+  </header>
+  <main class="frame studio">
+    <h1>编辑指路页</h1>
+    <p>改动会保存在当前浏览器。要让访客看到，导出 content.json，再上传到 GitHub 的 docs 目录并提交。</p>
+    <div class="toolbar">
+      <button id="export" type="button" disabled>导出 content.json</button>
+      <a href="https://github.com/VITASID57/bluntcore-intimacy-lab/upload/main/docs" target="_blank" rel="noopener">去 GitHub 上传 ↗</a>
+      <label class="file-button">导入 JSON<input id="import" type="file" accept=".json,application/json" disabled></label>
+      <button id="load-published" type="button" disabled>载入线上版本</button>
+    </div>
+    <p id="status" class="editor-status" role="status"></p>
+    <div class="studio-grid">
+      <section aria-label="页面内容" id="form"></section>
+      <section class="preview-panel" aria-labelledby="preview-title">
+        <div class="preview-bar">
+          <h2 id="preview-title">实时预览</h2>
+          <button id="desktop" type="button" aria-pressed="true">宽屏</button>
+          <button id="phone" type="button" aria-pressed="false">手机</button>
+        </div>
+        <div id="preview-viewport"><iframe id="preview" title="钝核页面预览" src="./?preview=1"></iframe></div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
