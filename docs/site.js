@@ -68,6 +68,79 @@ function renderSection(section, id) {
   return element;
 }
 
+
+function renderQuickNav(targets) {
+  const nav = node('nav', 'quick-nav');
+  nav.setAttribute('aria-label', '页面快捷导航');
+
+  const panel = node('div', 'quick-nav-panel');
+  panel.id = 'quick-nav-panel';
+  panel.hidden = true;
+  panel.append(node('p', 'quick-nav-title', '快速跳转'));
+  const toggle = node('button', 'quick-nav-toggle', '☷ 目录');
+  toggle.type = 'button';
+  toggle.setAttribute('aria-controls', panel.id);
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', '打开栏目导航');
+
+  const closeMenu = () => {
+    panel.hidden = true;
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', '打开栏目导航');
+  };
+
+  for (const target of targets) {
+    const jump = node('a', 'quick-nav-link', target.title);
+    jump.href = '#' + target.id;
+    jump.addEventListener('click', closeMenu);
+    panel.append(jump);
+  }
+
+  toggle.addEventListener('click', () => {
+    const opening = panel.hidden;
+    panel.hidden = !opening;
+    toggle.setAttribute('aria-expanded', String(opening));
+    toggle.setAttribute('aria-label', opening ? '关闭栏目导航' : '打开栏目导航');
+  });
+
+  const top = node('button', 'quick-nav-top', '↑ 顶部');
+  top.type = 'button';
+  top.setAttribute('aria-label', '返回页面顶部');
+  top.addEventListener('click', () => {
+    closeMenu();
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' });
+  });
+
+  const controls = node('div', 'quick-nav-controls');
+  controls.append(toggle, top);
+  nav.append(panel, controls);
+  return nav;
+}
+
+document.addEventListener('click', event => {
+  const nav = site.querySelector('.quick-nav');
+  if (!nav || nav.contains(event.target)) return;
+  const panel = nav.querySelector('.quick-nav-panel');
+  const toggle = nav.querySelector('.quick-nav-toggle');
+  if (!panel || panel.hidden) return;
+  panel.hidden = true;
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', '打开栏目导航');
+});
+
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const nav = site.querySelector('.quick-nav');
+  const panel = nav?.querySelector('.quick-nav-panel');
+  if (!panel || panel.hidden) return;
+  panel.hidden = true;
+  const toggle = nav.querySelector('.quick-nav-toggle');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', '打开栏目导航');
+  toggle.focus();
+});
+
 function render(data) {
   if (!Array.isArray(data.sections) || !data.sections.every(section => Array.isArray(section.items))) {
     throw new Error('Invalid contents');
@@ -87,15 +160,17 @@ function render(data) {
   const jumps = node('nav', 'jumps');
   jumps.setAttribute('aria-label', '栏目导航');
   const directory = node('div', 'directory frame');
+  const jumpTargets = [];
   for (const [index, section] of data.sections.entries()) {
     const id = /^[a-z][a-z\d-]*$/.test(section.id) ? `section-${section.id}-${index}` : `section-${index}`;
     const jump = node('a', '', section.title || '未命名栏目');
     jump.href = `#${id}`;
+    jumpTargets.push({ id, title: section.title || '未命名栏目' });
     jumps.append(jump);
     directory.append(renderSection(section, id));
   }
   if (jumps.childElementCount) hero.append(jumps);
-  site.replaceChildren(hero, directory, node('footer', 'bottom frame', data.footer));
+  site.replaceChildren(hero, directory, node('footer', 'bottom frame', data.footer), renderQuickNav(jumpTargets));
 }
 
 if (inPreview) {

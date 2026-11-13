@@ -97,3 +97,74 @@ a.card:hover { border-color: var(--accent); background-color: #233151; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0s !important; }
 }
+
+
+/* Floating navigation: compact on phones, reachable throughout long pages. */
+.quick-nav {
+  position: fixed;
+  z-index: 20;
+  right: calc(1rem + env(safe-area-inset-right, 0px));
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .55rem;
+  pointer-events: none;
+}
+.quick-nav > * { pointer-events: auto; }
+.quick-nav-controls { display: flex; gap: .45rem; }
+.quick-nav button {
+  min-height: 2.8rem;
+  padding: .5rem .85rem;
+  color: var(--ink);
+  border: 1px solid #738bb86e;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #20355cfa, #101a33f7);
+  box-shadow: 0 5px 22px #0009, inset 0 1px #f4f8ff1a;
+  backdrop-filter: blur(15px);
+  cursor: pointer;
+  font-size: .87rem;
+  font-weight: 600;
+  touch-action: manipulation;
+}
+.quick-nav button:hover { border-color: var(--accent); }
+.quick-nav-top { color: var(--accent) !important; }
+.quick-nav-panel {
+  width: min(17rem, calc(100vw - 2rem));
+  display: grid;
+  gap: .2rem;
+  padding: .65rem;
+  border: 1px solid #7790bd6b;
+  border-radius: .9rem;
+  background: #101c36f7;
+  box-shadow: 0 12px 32px #000a;
+  backdrop-filter: blur(18px);
+}
+.quick-nav-panel[hidden] { display: none; }
+.quick-nav-title {
+  margin: .1rem .65rem .25rem;
+  font-size: .72rem;
+  letter-spacing: .12em;
+  color: var(--muted);
+}
+.quick-nav-link {
+  display: block;
+  padding: .62rem .75rem;
+  border: 1px solid transparent;
+  border-radius: .55rem;
+  text-decoration: none;
+  font-size: .91rem;
+  line-height: 1.4;
+}
+.quick-nav-link:hover, .quick-nav-link:focus-visible {
+  color: var(--accent);
+  border-color: #f495ca52;
+  background: #bcd0fb13;
+}
+@media (max-width: 37rem) {
+  .quick-nav {
+    right: calc(.75rem + env(safe-area-inset-right, 0px));
+    bottom: calc(.8rem + env(safe-area-inset-bottom, 0px));
+  }
+  .quick-nav-panel { width: min(16rem, calc(100vw - 1.5rem)); }
+}
