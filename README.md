@@ -32,6 +32,9 @@
 | [🎮 跟机玩什么](./07-🎮-跟机玩什么_Playbooks-and-Games/) | 互动游戏、奇怪问卷、关系玩法 |
 | [🩻 疑难杂症](./08-🩻-疑难杂症_Troubleshooting/) | 客服返祖、人格掉线、重复动作等常见毛病 |
 | [🪦 实验废墟](./09-🪦-实验废墟_Experimental-Ruins/) | 没做成、没效果、不值得继续救的实验 |
+| [🎨 跟机画画](<./10-🎨-跟机画画_Image-Prompts/README.md>) | 普通画图与成人向绘图 Prompt |
+
+**[🗂️ Prompt 总索引](<./🗂️-Prompt总索引_Prompt-Index.md>)** · 按文字互动和画图找 Prompt。
 
 > 📚 **想直接翻全部文章？** [查看全站文章总目录 →](<./📚-全站文章总目录_All-Articles.md>)  
 > 每篇优先标记适用 AI / 平台：ChatGPT、Gemini、Grok、御四家通用或多模型通用。
