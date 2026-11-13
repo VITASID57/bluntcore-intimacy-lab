@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bluntcore-microtoys",
+  "version": "1.0.0",
+  "description": "钝核人机互动小工具：七种关系机关与五轴表达配置，分别生成可复制的单轮 Prompt。"
+}

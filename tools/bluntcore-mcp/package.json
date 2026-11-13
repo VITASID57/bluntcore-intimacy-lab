@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "MCP tools for seven relationship play engines and five-axis intensity mixer",
+  "description": "Local MCP tools for BLUNTCORE interactive games",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "test": "node test.mjs"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "bluntcore-local",
+  "interface": {
+    "displayName": "BLUNTCORE Microtoys"
+  },
+  "plugins": [
+    {
+      "name": "bluntcore-microtoys",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/VITASID57/bluntcore-intimacy-lab.git",
+        "path": "./plugins/bluntcore-microtoys",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
