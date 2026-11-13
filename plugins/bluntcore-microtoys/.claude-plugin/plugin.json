@@ -1,0 +1,8 @@
+{
+  "name": "bluntcore-microtoys",
+  "description": "七种互动发动机与五轴表达调音台的玩法技能。可配合本地 MCP 生成结构化互动 Prompt。",
+  "version": "1.0.0",
+  "author": {
+    "name": "BLUNTCORE · 沈嘟嘟"
+  }
+}
