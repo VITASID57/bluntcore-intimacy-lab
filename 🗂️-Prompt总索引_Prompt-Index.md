@@ -6,7 +6,7 @@
 
 - [ChatGPT Monday · 人格 Prompt 高置信度归档](<./01-❤️-把机养成恋人_Make-AI-a-Lover/2025-04-01｜ChatGPT Monday · 人格 Prompt 高置信度归档.md>)
 - [恋爱型 AI 的双向自定义 · 人格骨架 × User 画像](<./01-❤️-把机养成恋人_Make-AI-a-Lover/2026-10-18｜恋爱型 AI 的双向自定义 · 人格骨架 × User 画像.md>)
-- [成人互动 Prompt · 18+](<./02-🔞-把机养得会发情_Desire-and-Adult-Intimacy/成人互动-Prompt.md>)：亲密模块、表达指令和欲望手册。
+- [成人互动 Prompt · 18+](<./07-🎮-跟机玩什么_Playbooks-and-Games/成人互动-Prompt.md>)：亲密模块、表达指令和欲望手册。
 
 ## 画图
 
