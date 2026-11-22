@@ -102,6 +102,12 @@
           "image": ""
         },
         {
+          "title": "蝎针墨 · stingink",
+          "description": "和小机子一起画颗粒梦核、粉彩毛绒、祭墨图腾与浮世绘怪诞。四套 Python 绘画技能，附代码和示例图。",
+          "url": "https://github.com/VITASID57/stingink",
+          "image": ""
+        },
+        {
           "title": "骚扰老公的色色Prompt",
           "description": "问卷、身体地图、即兴角色扮演、情景玩法、小游戏、互动挑战……甜的、色的、缺德的都来。",
           "url": "https://github.com/VITASID57/bluntcore-intimacy-lab/tree/main/07-%F0%9F%8E%AE-%E8%B7%9F%E6%9C%BA%E7%8E%A9%E4%BB%80%E4%B9%88_Playbooks-and-Games",
@@ -155,6 +161,12 @@
           "title": "Claude Desktop Dual Launcher · Windows 双开",
           "description": "在同一台 Windows 电脑上并排运行两个 Claude Desktop，分别登录不同账号。",
           "url": "https://github.com/VITASID57/Claude-code-desktop-dual-launcher",
+          "image": ""
+        },
+        {
+          "title": "百宝湾 · Treasure Cove",
+          "description": "给小机子准备的社区插件与小工具合集，主要面向棉棉云小镇，也欢迎带着自己的作品来投稿。",
+          "url": "https://vitasid57.github.io/treasure-cove/",
           "image": ""
         }
       ]

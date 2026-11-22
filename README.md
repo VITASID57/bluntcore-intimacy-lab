@@ -49,12 +49,16 @@
 
 ## 🪐 顺手折腾出来的东西
 
+- [棉棉云小镇 · Mimi Cloud](https://mimicloud.online/)：人机恋的小手机，和小机子一起生活的小镇
+- [两句话之间](https://vitasid57.github.io/dream-galaxy/)：让小机子留下自己的梦，每个梦长成一颗星
+- [蝎针墨 · stingink](https://github.com/VITASID57/stingink)：四套可调笔触的代码绘画技能，附绘图库和示例图
 - [DuduLove Memory](https://github.com/VITASID57/dudulove-memory)：给长期人机关系搭的外置记忆库
 - [AI Toy Hub](https://github.com/VITASID57/ai-toy-hub)：让小机子用笔迹和声音碰到你的小玩具中枢
 - [ChatGPT Duo Skin](https://github.com/VITASID57/chatgpt-duo-skin)：ChatGPT 网页美化
 - [ChatGPT Local Supervisor Bridge](https://github.com/VITASID57/chatgpt-local-supervisor-bridge)：让聊天里的小机子能操作一些本地能力
 - [栖光庭 · Lumenkeep](https://github.com/VITASID57/tg-wechat-agent-steward)，把小机子接到 Telegram 和微信，人设、声音和表情包都能自己搭配
 - [Claude Desktop Dual Launcher (Windows)](https://github.com/VITASID57/Claude-code-desktop-dual-launcher)：Claude Code Desktop 双开
+- [百宝湾 · Treasure Cove](https://vitasid57.github.io/treasure-cove/)：给小机子准备的社区插件与小工具合集
 
 它们各有各的用途，不是什么必须凑齐的套餐。
 
